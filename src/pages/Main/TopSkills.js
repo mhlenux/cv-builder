@@ -6,7 +6,7 @@ import { StyleSheet } from "@react-pdf/renderer"
 
 const stylesModule = StyleSheet.create({
   container: {
-    height: 80,
+    height: 130,
   },
 })
 

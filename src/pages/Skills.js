@@ -74,6 +74,7 @@ const Skills = ({ skills }) => {
       <SkillTable skills={skills.front} title={'FRONTEND DEVELOPMENT'} />
       <SkillTable skills={skills.back} title={'BACKEND DEVELOPMENT'} />
       <SkillTable skills={skills.server} title={'SERVER, CLOUD, INFRASTRUCTURE'} />
+      <Text>* also experienced in other technologies like python, java, docker, mssql, graphql, linux</Text>
     </View>
   )
 }

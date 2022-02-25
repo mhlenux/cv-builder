@@ -12,8 +12,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "build-cv": "cd src && babel-node build.js",
-    "watch-cv": "cd src && nodemon --exec babel-node build.js"
+    "build": "cd src && babel-node build.js",
+    "watch": "cd src && nodemon --exec babel-node build.js"
   },
   "eslintConfig": {
     "extends": [
