@@ -56,7 +56,7 @@ const Output = () => (
   </Document>
 )
 
-const outputFileName = `../output/cv.pdf`
+const outputFileName = `../output/cv_${(new Date().toJSON().slice(0,10))}.pdf`
 
 ReactPDF.render(<Output />, outputFileName)
 
